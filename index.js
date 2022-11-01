@@ -3,7 +3,7 @@ const client = new RPC.Client({ transport: "ipc" });
 const { clientid } = require("./config.json");
 
 const activity = {
-  details: "chillin' in vice city",
+  //details: "chillin' in vice city",
   assets: {
     large_image: "gta-6-icon",
     large_text: "Grand Theft Auto VI",
